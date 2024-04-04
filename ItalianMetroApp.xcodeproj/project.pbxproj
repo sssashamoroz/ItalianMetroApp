@@ -13,6 +13,10 @@
 		D753878F2BB462BD00FE77F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D753878E2BB462BD00FE77F6 /* Preview Assets.xcassets */; };
 		D75387912BB462BD00FE77F6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75387902BB462BD00FE77F6 /* Persistence.swift */; };
 		D75387942BB462BD00FE77F6 /* ItalianMetroApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D75387922BB462BD00FE77F6 /* ItalianMetroApp.xcdatamodeld */; };
+		D753879B2BB4631500FE77F6 /* StationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753879A2BB4631500FE77F6 /* StationModel.swift */; };
+		D753879D2BB4697300FE77F6 /* MetroMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753879C2BB4697300FE77F6 /* MetroMapViewModel.swift */; };
+		D753879F2BB4699000FE77F6 /* ConnectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753879E2BB4699000FE77F6 /* ConnectionModel.swift */; };
+		D75387A12BB469A200FE77F6 /* MetroMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75387A02BB469A200FE77F6 /* MetroMapModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		D753878E2BB462BD00FE77F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D75387902BB462BD00FE77F6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D75387932BB462BD00FE77F6 /* ItalianMetroApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ItalianMetroApp.xcdatamodel; sourceTree = "<group>"; };
+		D753879A2BB4631500FE77F6 /* StationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationModel.swift; sourceTree = "<group>"; };
+		D753879C2BB4697300FE77F6 /* MetroMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroMapViewModel.swift; sourceTree = "<group>"; };
+		D753879E2BB4699000FE77F6 /* ConnectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionModel.swift; sourceTree = "<group>"; };
+		D75387A02BB469A200FE77F6 /* MetroMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetroMapModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,8 @@
 			children = (
 				D75387872BB462BB00FE77F6 /* ItalianMetroAppApp.swift */,
 				D75387892BB462BB00FE77F6 /* ContentView.swift */,
+				D75387A32BB46AC800FE77F6 /* ViewModels */,
+				D75387A22BB46AC200FE77F6 /* Models */,
 				D753878B2BB462BD00FE77F6 /* Assets.xcassets */,
 				D75387902BB462BD00FE77F6 /* Persistence.swift */,
 				D75387922BB462BD00FE77F6 /* ItalianMetroApp.xcdatamodeld */,
@@ -71,6 +81,24 @@
 				D753878E2BB462BD00FE77F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D75387A22BB46AC200FE77F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D75387A02BB469A200FE77F6 /* MetroMapModel.swift */,
+				D753879A2BB4631500FE77F6 /* StationModel.swift */,
+				D753879E2BB4699000FE77F6 /* ConnectionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D75387A32BB46AC800FE77F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D753879C2BB4697300FE77F6 /* MetroMapViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +173,11 @@
 			files = (
 				D75387912BB462BD00FE77F6 /* Persistence.swift in Sources */,
 				D753878A2BB462BB00FE77F6 /* ContentView.swift in Sources */,
+				D753879B2BB4631500FE77F6 /* StationModel.swift in Sources */,
+				D753879D2BB4697300FE77F6 /* MetroMapViewModel.swift in Sources */,
+				D75387A12BB469A200FE77F6 /* MetroMapModel.swift in Sources */,
 				D75387942BB462BD00FE77F6 /* ItalianMetroApp.xcdatamodeld in Sources */,
+				D753879F2BB4699000FE77F6 /* ConnectionModel.swift in Sources */,
 				D75387882BB462BB00FE77F6 /* ItalianMetroAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
