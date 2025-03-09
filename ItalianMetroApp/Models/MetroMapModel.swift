@@ -46,7 +46,7 @@ class MetroMap {
         let connection = Connection(from: from , to: to, weight: weight)
         adjacencyList[from]?.append(connection)
         
-        // For an undirected graph, we also add a connection from `to` to `from`
+        // For an undirected graph, we also add a connection from 'to' to 'from'
         let reverseConnection = Connection(from: from, to: from, weight: weight)
         adjacencyList[to]?.append(reverseConnection)
         
